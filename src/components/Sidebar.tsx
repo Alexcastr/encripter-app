@@ -14,12 +14,12 @@ export const Sidebar: FC<Props> = ({ result = '' }) => {
     toast.success('Texto copiado con éxito')
   }
   return (
-    <article className="col-span-1 bg-gray-400 rounded-3xl w-full h-fit md:min-h-[700px] md:w-[400px] shadow-xl mx-auto py-10 lg:mt-14">
+    <article className="col-span-1 bg-gray-400 rounded-3xl w-full h-fit md:max-h-[700px] md:w-[350px] shadow-xl mx-auto py-10 lg:mt-14">
       <div className="flex flex-col h-full justify-center items-center m-auto gap-12">
         {result !== ''
           ? (
-          <div className="flex flex-col justify-between h-full gap-10 ">
-            <h3 className="font-bold text-lg text-gray-900 text-left w-[360px] ">
+          <div className="flex flex-col justify-between h-[70.8vh] gap-10 ">
+            <h3 className="font-bold text-lg text-gray-900 text-left w-[330px] ">
               {result}
             </h3>
             <button

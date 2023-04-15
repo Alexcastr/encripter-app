@@ -16,7 +16,7 @@ export const Textarea: FC<Props> = ({ onChange, text }) => {
   return (
     <textarea
 
-      className="m-auto pt-20 sm:pl-[3.7rem] md:pt-0 lg:pl-12 w-[577px] h-[500px] border border-gray-100 text-3xl text-[#5c82b0] border-0 resize-none bg-[#242424] outline-none"
+      className="m-auto pt-32 px-2 sm:pt-20 sm:pl-[3.7rem] lg:pl-12 w-[577px] h-[500px] border border-gray-100 text-3xl text-[#5c82b0] border-0 resize-none bg-[#242424] outline-none"
       onChange={onChange}
       value={text}
       ref={textareaRef}
